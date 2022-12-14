@@ -1,0 +1,158 @@
+@media (min-width: 767px) and (max-width:1024px){
+    .section-one{
+        background-image: url(./imgs/bg-main-tablet.png);
+        background-position: 70% 80%;
+    }
+    
+    .logo img{
+        padding: 61px 0 0 39px;
+    }
+    
+    .section-one h1{
+        padding: 80px 25% 28px 39px;
+        font-size: 4em;
+        line-height: 64px;
+    }
+    
+    .section-one p {
+        padding: 30px 25% 16% 39px;
+        font-size: 1.5em;
+        line-height: 28px;
+    }
+
+    .bg-pattern1{
+        position: absolute;
+        display: block;
+        top: -5%;
+        right: -10%;
+    }
+
+    /* section-two */
+
+    .section-two{
+        width: 90%;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 650px;
+    }
+    
+    .mobile-pic{
+        width: 275.21px;
+        height: 550px;
+        top: -138px;
+        left: 6.5%;
+    }
+    
+    .orange-div{
+        width: 399px;
+        height: 530px;
+        top: 34%;
+        left: 32%;
+    }
+
+    /* footer */
+    .footer{
+        margin-top: 130px;
+        padding: 25px 0 0 34px;
+    }
+    
+    .footer-text{
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-text p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #191826;
+        padding-right: 200px;
+
+
+    }
+    
+    .icons{
+        padding: 55px 20px 40px 0;
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    .section-one{
+        background-image: url(./imgs/bg-main-desktop.png);
+        background-position: 55% 30%;
+    }
+    
+    .logo img{
+        padding: 61px 0 0 146px;
+    }
+    
+    .section-one h1{
+        padding: 70px 40% 20px 146px;
+        font-size: 3.5em;
+        line-height: 70px;
+    }
+    
+    .section-one p {
+        padding: 30px 35% 15% 146px;
+        font-size: 1.3em;
+        line-height: 34px;
+    }
+
+    .bg-pattern1{
+        position: absolute;
+        display: block;
+        top: -2%;
+        right: -2%;
+    }
+
+    /* section-two */
+
+    .section-two{
+        width: 85%;
+        height: 600px;
+        margin-top: 3%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .mobile-pic{
+        width: 300.21px;
+        height: 600px;
+        top: -150px;
+        left: 14.8%;
+    }
+    
+    .orange-div{
+        width: 446px;
+        height: 530px;
+        top: 20%;
+        left: 55%;
+    }
+
+    /* footer */
+    .footer{
+        margin-top: 100px;
+        padding: 25px 0 50px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer-text{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-text p{
+        padding: 0 15% 0 12%;
+    }
+    
+    .icons{
+        padding: 55px 100px 40px 0;
+    }
+}
